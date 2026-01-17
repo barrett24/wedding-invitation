@@ -12,9 +12,9 @@ export const Information1 = () => {
       <div className="info-card">
         <div className="label">식사 안내</div>
         <div className="content">
-          식사시간: 12시 30분 ~ 14시 30분
+          전쟁기념관 내 CU 이용
           <br />
-          장소: 지하 1층 연회장
+          아래 링크를 통해 CU 모바일상품권 발급
         </div>
       </div>
     </>
@@ -33,7 +33,7 @@ export const Information2 = () => {
           <br />
           분들을 위해 계좌번호를 기재하였습니다.
           <br />
-          넓은 마음으로 양해 부탁드립니다.
+          넓은 마음으로 원기옥을 모아주세요.
         </div>
 
         <div className="break" />
