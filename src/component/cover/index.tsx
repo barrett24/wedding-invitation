@@ -19,8 +19,11 @@ const DAY_OF_WEEK = [
 ]
 
 export const Cover = () => {
-  alert("안오면 지상렬");
-  alert("안오면 지상렬2");
+  while(true){
+    if(confirm("안오면 지상렬")){
+      break;
+    }
+  }
   return (
     <LazyDiv className="card cover">
       <div className="wedding-date">

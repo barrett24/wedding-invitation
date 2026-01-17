@@ -14,7 +14,7 @@ export const WEDDING_DATE_FORMAT = `YYYY년 MMMM D일 dddd A h시${WEDDING_DATE.
 
 // 예식 당월 휴무일. 켈린더에 표시하기 위함.
 // 예: 예식일 8월 -> 8월 15일 광복절
-export const HOLIDAYS = [15]
+export const HOLIDAYS = []
 
 export const LOCATION = "로얄파크컨벤션"
 export const LOCATION_ADDRESS = "서울 용산구 이태원로 29, 로얄파크 3층 로얄"
@@ -47,19 +47,19 @@ export const BRIDE_INFO = [
     relation: "신부",
     name: BRIDE_FULLNAME,
     phone: "010-4165-3495",
-    account: "우리은행 0000000000000",
+    account: "신한은행 110-361-566601",
   },
   {
     relation: "신부 아버지",
     name: BRIDE_FATHER,
     phone: "010-0000-0000",
-    account: "하나은행 00000000000",
+    account: "신한은행 110-361-566601",
   },
   {
     relation: "신부 어머니",
     name: BRIDE_MOTHER,
     phone: "010-0000-0000",
-    account: "하나은행 00000000000000",
+    account: "신한은행 110-361-566601",
   },
 ]
 
@@ -73,18 +73,18 @@ export const GROOM_INFO = [
     relation: "신랑",
     name: GROOM_FULLNAME,
     phone: "010-2779-8705",
-    account: "하나은행 00000000000000",
+    account: "신한은행 110-361-566601",
   },
   {
     relation: "신랑 아버지",
     name: GROOM_FATHER,
     phone: "010-0000-0000",
-    account: "신한은행 000000000000",
+    account: "신한은행 110-361-566601",
   },
   {
     relation: "신랑 어머니",
     name: GROOM_MOTHER,
     phone: "010-0000-0000",
-    account: "국민은행 000000000000",
+    account: "신한은행 110-361-566601",
   },
 ]
